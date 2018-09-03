@@ -1,0 +1,12 @@
+.responsive-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
