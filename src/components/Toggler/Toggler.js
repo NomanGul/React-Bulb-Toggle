@@ -56,9 +56,10 @@ const styles = theme => ({
   }
 });
 
+// TOGGLER BUTTON CLASS
 class Toggler extends Component {
   render() {
-    const { classes, handleChange, isChecked } = this.props;
+    const { classes, ToggleFunc, isChecked } = this.props;
 
     return (
       <div className="toggler">
@@ -72,7 +73,7 @@ class Toggler extends Component {
           }}
           disableRipple
           checked={isChecked}
-          onChange={handleChange}
+          onChange={ToggleFunc}
           value="isChecked"
         />
       </div>

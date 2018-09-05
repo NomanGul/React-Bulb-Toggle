@@ -1,11 +1,16 @@
 import React from "react";
 import LightBulbImg from "../../images/light-bulb.jpg";
-import './index.css'
+import "./index.css";
 
-const LightBulb = props => {
+// LIGHT BULB FUNCTIOANAL COMPONENT
+const LightBulb = () => {
   return (
     <div className="center-img">
-      <img src={LightBulbImg} alt="LightBulb" className="responsive-img" />
+      <img
+        src={LightBulbImg}
+        alt="LightBulb"
+        className="responsive-img fadeIn animated"
+      />
     </div>
   );
 };

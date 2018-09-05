@@ -4,7 +4,8 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import "../../App.css";
 
-const Navbar = (props) => {
+// NAVBAR FUNCTIONAL COMPONENT
+const Navbar = props => {
   return (
     <Fragment>
       <AppBar position="static" className="nav">

@@ -1,8 +1,9 @@
 import React from "react";
 import BulbImg from "../../images/bulb.jpg";
-import './index.css'
+import "./index.css";
 
-const Bulb = props => {
+// BULB FUNCTIONAL COMPONENT
+const Bulb = () => {
   return (
     <div className="center-img">
       <img src={BulbImg} alt="Bulb" className="responsive-img" />
