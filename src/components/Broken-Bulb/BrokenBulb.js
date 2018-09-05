@@ -1,11 +1,16 @@
 import React from "react";
 import BrokenBulbImg from "../../images/broken-bulb.jpg";
-import './index.css'
+import "./index.css";
 
-const BrokenBulb = props => {
+// BROKEN BULB FUNCTIONAL COMPONENT
+const BrokenBulb = () => {
   return (
     <div className="center-img">
-      <img src={BrokenBulbImg} alt="BrokenBulb" className="responsive-img" />
+      <img
+        src={BrokenBulbImg}
+        alt="BrokenBulb"
+        className="responsive-img wobble animated"
+      />
     </div>
   );
 };
