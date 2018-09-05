@@ -1,21 +1,22 @@
-/* .nav {
-  background: #ff7664 !important;
-} */
+/* STYLING FOR NAVBAR */
+.nav {
+  color: #4aff62 !important;
+  background: #383838 !important;
+}
 
 .nav_title {
   justify-content: center;
 }
 
+/* STYLING FOR TOGGLE BUTTON */
 .toggler {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
+/* STYLING FOR FLOATING BUTTON */
 .floating_btn {
-  /* display: flex;
-  justify-content: flex-end;
-  align-items: flex-end; */
   position: fixed;
   bottom: 10px;
   right: 10px;
