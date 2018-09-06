@@ -49,7 +49,7 @@ class App extends Component {
           floatingButton: false
         });
       } else {
-        swal({title: "Bachat ho gai"});
+        swal({ title: "Bachat ho gai" });
       }
     });
   };
